@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    overflow: hidden; /* Hide scrollbars */
+}
+.panel1{
+    height: 130px;
+    width: 350px;
+    background-color: #121212;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.logo{
+    height: 45px;
+    width: 300px;
+    font-size: 0.90rem;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+
+}
+.logo i{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+/* Home-Search */
+
+.home-search{
+    height: 45px;
+    width: 300px;
+    font-size: 0.90rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.home-search i {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.home-search span{
+    margin-left: 10px;
+}
+.search i{
+    color: #8F8F8F;
+}
+.search span{
+    color: #8F8F8F;
+}
+
+
+/* header */
+
+.disp-inline{
+    height: 120px;
+    display: flex;
+}
+
+.header-main{
+    height: 64px;
+    width: 1150px;
+    background-color: #101010;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header-left-right{
+    margin-left: 25px;
+}
+
+.header-left-right i{
+    color: grey;
+    font-size: 1.7rem; 
+    margin-left: 5px;
+    
+}
+.Signup{
+    height: 50px;
+    width: 100px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-login{
+    height: 45px;
+    width: 1050px;
+    display: flex;
+    text-align: center;
+    justify-content:right
+}
+
+.Login{
+    height: 45px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.Login span{
+    color: black;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+
+/* My Library */
+
+.library-main{
+    height: 590px;
+    width: 350px;
+    background-color: #121212;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.library{
+    height: 55px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.lib-icon i{
+    font-size: 1.2rem;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #8F8F8F;
+}
+.library span{
+    color: #8F8F8F;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+.lib-add i{
+    height: 32px;
+    width: 200px;
+    color: #8F8F8F;
+    display: flex;
+    align-items: center;
+    justify-content:right
+}
+
+/* Create-Playlist Template */
+
+.create-playlist{
+    height: 130px;
+    width: 330px;
+    background-color: #242424;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.create-playlist p{
+    height: 30px;
+    width: 300px;
+}
+.create-btn{
+    height: 30px;
+    width: 110px;
+    color: black;
+    background-color: white;
+    border-radius: 18px;
+    font-size: 0.75rem;
+    font-weight: 620;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.create-playlist-alltext{
+    height: 100%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.c-playlist-one{
+    font-size: 0.90rem;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 25px;
+
+}
+.c-playlist-two{
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: -50px;
+
+}
+.podcast-btn{
+    height: 30px;
+    width: 130px;
+    color: black;
+    background-color: white;
+    border-radius: 18px;
+    font-size: 0.75rem;
+    font-weight: 620;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+/* ---- */
+
+.playlist-card2{
+    margin-top: 20px;
+}
+
+
+/* Bottom-links */
+.bottom-links{
+    height:50px;
+    width: 320px;
+    font-size: 0.62rem;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.bottom-links a{
+    margin-left: 10px;
+    color: #8a8a8a;
+    font-weight: 550;
+}
+.bottom-links p{
+    margin-top: 20px;
+}
+
+.lang-en{
+    height: 28px;
+    width: 90px;
+    font-size: 0.82rem;
+    font-weight: 750;
+    border-radius: 20px;
+    border: 1px solid #8a8a8a;
+    text-align: center;
+    line-height: 25px;
+}
+.lang-box{
+    height: 100px;
+    width: 320px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* spotify playlist */
+
+.spotify-playlist-header{
+    height: 645px;
+    width: 1150px; 
+    background-color: #1E1E1E;
+    color: white;
+    margin-left: 15px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.spotify-playlist{
+    height: 40px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+}
+
+.SP{
+    height: 30px;
+    width: 1070px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 20px; 
+    margin-top: 20px;  
+}
+.showall{
+    font-size: 0.75rem;
+    font-weight: 650;
+    color: #8a8a8a;
+}
+
+
+/* Spotify-template */
+
+.spotify-cards{
+    width: 1140px;
+    height:580px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.card-template{
+    height: 250px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: #181818;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.card-image{
+    height: 140px;
+    width: 140px;
+    background-size: cover;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-text{
+    height: 50px;
+    width: 150px;
+    display: grid;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 0.92rem;
+    font-weight: 550;
+
+}
+.main-tag{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card-para{
+    font-size: 0.75rem;
+    font-weight: 550;
+    color: #747474;
+}
+
+/* Copyright-panel */
+
+/* .copyright-panel{
+    height: 50px;
+    width: 400px;
+    background-color: #1E1E1E;
+} */
+
+
+/* Top-links */
+
+.Top-links{
+    height: 120px;
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.top-link-text{
+    height: 180px;
+    width: 150px;
+    display:block;
+    margin-left: 30px;
+}
+.top-link-text p{
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #747474;
+    font-weight: 550;
+}
+.Top-links-header{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+
+/* Social-media */
+
+.social-media i{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #121212;
+    color: white;
+    margin-left: 15px;
+}
+
+.template-center{
+    height: 50px;
+    width: 590px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.temp-cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* End-name */
+/* 
+.spotify-name{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+} */
